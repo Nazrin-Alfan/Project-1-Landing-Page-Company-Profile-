@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>State</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="containerNavBar">
+      <div class="navbar">
+        <h1><span class="simbol">STATE</span></h1>
+        <div class="listNavbar">
+          <ul> 
+            <a href="#product"><li>Product</li></a>
+            <a href="#Feature"><li>Feature</li></a>
+            <a href="#services"><li>Service</li></a>
+            <a href="#agent"><li>Agent</li></a>
+            <li><button class="loginForm" onclick="loginForm()">Login</button></li>
+            <li><form class="Login">
+              <input class="Input" type="text" placeholder="ID" required>
+              <input class="Input" type="password" placeholder="*****" required>
+              <input class="submit" type="submit" value="login"> 
+            </form></li>
+          </ul>
+        </div>
+        <div class="logo">
+          <button class="logo-link" onclick="menuToggle();"><span class="material-symbols-outlined">
+              menu
+            </span></button>
+        </div>
+        <div class="list">
+          <ul class="allList">
+            <li class="agent"><a href="#">Product</a></li>
+            <li class="agent"><a href="#">Service</a></li>
+            <li class="agent"><a href="#">Feature</a></li>
+            <li class="agent"><a href="#">AGEN</a></li>
+            <li><button class="loginFormMini" onclick="loginFormMini()">Login</button></li>
+            <li><form class="LoginMini">
+              <li>
+                <input class="InputMini" type="text" placeholder="ID" required>
+              </li>
+              <li>
+                <input class="InputMini" type="password" placeholder="*****" required>
+              </li>
+              <li>               
+                <input class="submitMini" type="submit" value="login"> 
+              </li>
+            </form></li>
+          </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <main>
+
+    <!-- Page 1 Start -->
+    <div class="overlay">
+      <div class="page1">
+        <div class="page1Text">
+          <h1>
+            Discover the Key to Your New Home
+          </h1>
+          <br>
+          <p>
+            "Welcome to our website, a dedicated real estate agency committed to helping you find your dream property. We understand the importance of having a comfortable home that meets your needs, and we are ready to assist you in finding the right property for you and your family."
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Page 1 End -->
+
+    <!-- Page 2 Start -->
+    <div class="page2" id="Feature">
+      <div class="text">
+        <h1>
+          What Are My Advantages
+        </h1>
+        <ul>
+          <li>Profitable Investment</li>
+          <li>High-value stability</li>
+          <li>Attractive Design</li>
+          <li>Strategic Location</li>
+          <li>Guaranteed Security</li>
+          <li>Comprehensive Facilities</li>
+          <li>Complete Documentation and Legalities</li>
+          <li>Diverse Unit Options</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Page 2 End -->
+
+    <!-- Page 3 Start -->
+    <div class="hr1">
+      <hr>
+    </div>
+    <div class="page3" id="product">
+      <div class="containerCard">
+        <div class="card">
+          <img src="img/house-1450586_1920.jpg" alt="house1">
+          <p>RP.25.000.000.000</p>
+          <p><span class="lorem">Lorem ipsum, dolor sit amet consectetur</span></p>
+          <span class="material-symbols-out
+
+lined">
+            bed
+          </span>
+          <span class="bedValue">4</span>
+        </div>
+        <div class="card">
+          <img src="img/house-1836070.jpg" alt="house3">
+          <p>RP.10.000.000.000</p>
+          <p><span class="lorem">Lorem ipsum, dolor sit amet consectetur</span></p>
+          <span class="material-symbols-outlined">
+            bed
+          </span>
+          2
+        </div>
+        <div class="card">
+          <img src="img/house-1867187.jpg" alt="house4">
+          <p>RP.20.000.000.000</p>
+          <p><span class="lorem">Lorem ipsum, dolor sit amet consectetur</span></p>
+          <span class="material-symbols-outlined">
+            bed
+          </span>
+          3
+        </div>
+        <div class="card">
+          <img src="img/house-2609016_1920.jpg" alt="house5">
+          <p>RP.15.000.000.000</p>
+          <p><span class="lorem">Lorem ipsum, dolor sit amet consectetur</span></p>
+          <span class="material-symbols-outlined">
+            bed
+          </span>
+          2
+        </div>
+      </div>
+    </div>
+    <div class="hr2">
+      <hr>
+    </div>
+    <!-- Page 3 End -->
+
+    <!-- Agen Start -->
+    <div class="containerPageAgen" id="agent">
+      <div class="containerCardAgen">
+        <h1>Our Agent</h1>
+        <div class="contentAgen">
+          <div class="agen">
+            <img src="img/agen1.jpg" alt="Jansen"><br>
+            <p>Name: Ethan Anderson <br>Number: +1 (555) 987-6543 <br>
+              Social Media: <br>
+              <span class="SocialMedia">
+                Facebook: @ethanandersonproperties <br>
+              Instagram: @ethan_realestate <br>
+              Twitter: @ethan_realtor</p>
+              </span>
+              
+          </div>
+          <div class="agen">
+            <img src="img/agen2.jpg" alt=""><br>
+            <p>Name: Sophia Reynolds <br>
+              Number: +1 (555) 246-8139 <br>
+              Social Media: <br>
+              <span class="SocialMedia">
+                Facebook: @sophiarealty<br>
+                Instagram: @sophiareynolds_realestate<br>
+                Twitter: @sophiarealtor</p>
+              </span>
+              
+          </div>
+          <div class="agen">
+            <img src="img/agen3.jpg" alt=""><br>
+            <p>Name: Olivia Mitchell <br>
+              Number: +1 (555) 123-4567 <br>
+              Social Media:<br>
+              <span class="SocialMedia">
+              Facebook: @oliviamitchellrealestate<br>
+              Instagram: @oliviamitchell_realestate<br>
+              Twitter: @oliviam_realtor</p>
+              </span>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Agen End -->
+
+    <!-- Kontak Start -->
+    <div class="container">
+      <div class="kontak">
+        <div class="content">
+          <div class="whatsapp"></div>
+          <div class="facebook"></div>
+          <div class="instagram"></div>
+        </div>
+      </div>
+    </div>
+<!-- Kontak End -->
+<br> 
+    <section id="services">
+      <h1>Our Services</h1>
+      <div class="containerService">
+        <div class="service-list">
+          <!-- Service 1 -->
+          <div class="service-item">
+            <div class="containerItem">
+              <i class="fa fa-home"></i>
+              <img src="img/properti listing.jpg" alt="">
+              <div class="textService">
+                <h2>Property Listings</h2>
+                <br>
+                <p>Delve into our vast and comprehensive collection of meticulously curated property listings.</p>
+                <br><br>  <br>
+              </div>
+            </div>
+          </div>
+          <!-- Service 2 -->
+          <div class="service-item">
+            <div class="containerItem">
+              <i class="fa fa-usd"></i>
+              <img src="img/sell property.jpg" alt="">
+              <div class="textService">
+                <h2>Sell Your Property</h2>
+                <br>
+                <p>List your property with us and reach potential buyers.</p>
+                <br><br>  <br>
+              </div>
+            </div>
+          </div>
+          <!-- Service 3 -->
+          <div class="service-item">
+            <div class="containerItem">
+              <i class="fa fa-users"></i>
+              <img src="img/our agent.jpg" alt="">
+              <div class="textService">
+                <h2>Real Estate Agents</h2>
+                <br>
+                <p>Connect with experienced real estate agents.</p>
+                <br><br>  <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</section>
+<br> <br> <br> <br>
+<hr>
+  <footer class="footer">
+    <p>&copy; 2023 Your Website. All rights reserved.</p>
+    <p>Thank you for visiting our website. We hope you had a wonderful time exploring the information and resources we provided.</p>
+    <p>At Your Website, we strive to deliver high-quality content and valuable resources to our visitors. We are committed to continuously improving our website to meet your needs and expectations.</p>
+    
+  </footer>
+</div>
+</main>
+</body>
+<script src="index.js"></script>
+
+</html>
+```
+
+<!-- Beberapa perubahan yang telah dilakukan:
+
+1. Menyusun tag HTML dengan rapi dan konsisten menggunakan indentasi.
+2. Mengelompokkan komponen-komponen seperti Navbar, Page 1, Page 2, Page 3, Agen, dan Kontak menggunakan komentar untuk mempermudah pemahaman struktur halaman.
+3. Memberikan komentar pada setiap bagian untuk menjelaskan fungsinya.
+4. Memperbaiki beberapa penempatan tag `<div>` yang terjadi kesalahan penutupan.
+5. Memperbaiki penulisan tag `<p>` yang tidak konsisten.
+6. Memastikan setiap atribut pada tag HTML memiliki tanda kutip yang sesuai.
+7. Memperbaiki penulisan beberapa class dan id yang tidak konsisten.
+
+Pastikan juga untuk memeriksa dan menghubungkan file CSS dan JavaScript yang diperlukan sesuai dengan lokasi yang tepat di direktori proyek Anda. -->
